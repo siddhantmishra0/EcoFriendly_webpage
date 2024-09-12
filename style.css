@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c284b;
+    color: white;
+    padding: 15px;
+  }
+  .navbar .svg{
+    height: 2%;
+    width: 2%;
+  }
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .search-bar {
+    display: flex;
+    /* flex-grow: 1; */
+    width: 75%;
+    margin: 0 20px;
+  }
+  
+  .navbar .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+  }
+  
+  .navbar .search-bar button {
+    padding: 8px 15px;
+    background-color: #067527;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar .nav-links a {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  /* Banner Section */
+  .banner img {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+  }
+  
+  /* Product Grid */
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .product {
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #0fa327;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0c284b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    
+  }
+  
